@@ -1,7 +1,80 @@
-# Model artifact (regenerate with train.py)
-model.joblib
+# Python artifacts
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+wheels/
+*.egg
+MANIFEST
+
+# Virtual environments
 .venv/
 venv/
+env/
+ENV/
+.conda/
+conda/
+
+# Streamlit
+.streamlit/
+.streamlit/secrets.toml
+
+# Model artifacts (regenerate with train.py)
+model.joblib
+model_*.joblib
+*.pkl
+*.pickle
+
+# Dataset/local data files (CSV, Excel, etc. - keep in .gitignore as they may be large or regenerated)
+# Uncomment if you want to ignore local data files
+# *.csv
+# *.xlsx
+# *.xls
+# *.json
+
+# Environment variables
 .env
+.env.local
+.env.*.local
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Icon?
+Desktop.ini
+
+# Jupyter/IPython Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+logs/
+
+# Test/coverage
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
