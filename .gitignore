@@ -1,0 +1,7 @@
+# Model artifact (regenerate with train.py)
+model.joblib
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env

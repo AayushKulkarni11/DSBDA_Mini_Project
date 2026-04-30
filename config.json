@@ -1,0 +1,76 @@
+{
+  "crop_type": [
+    "BANANA",
+    "BEAN",
+    "CABBAGE",
+    "CITRUS",
+    "COTTON",
+    "MAIZE",
+    "MELON",
+    "MUSTARD",
+    "ONION",
+    "POTATO",
+    "RICE",
+    "SOYABEAN",
+    "SUGARCANE",
+    "TOMATO",
+    "WHEAT"
+  ],
+  "soil_type": [
+    "DRY",
+    "HUMID",
+    "WET"
+  ],
+  "region": [
+    "Central Plateau & Hills Region",
+    "East Coast Plains & Hills Region",
+    "Eastern Himalayan Region",
+    "Eastern Plateau & Hills Region",
+    "Gujarat Plains & Hills Region",
+    "Island Region",
+    "Lower Gangetic Plain Region",
+    "Middle Gangetic Plain Region",
+    "Southern Plateau & Hills Region",
+    "Trans-Gangetic Plain Region",
+    "Upper Gangetic Plain Region",
+    "West Coast Plains & Ghats Region",
+    "Western Dry Region",
+    "Western Himalayan Region",
+    "Western Plateau & Hills Region"
+  ],
+  "weather_condition": [
+    "NORMAL",
+    "RAINY",
+    "SUNNY",
+    "WINDY"
+  ],
+  "temperature": [
+    "10-20",
+    "20-30",
+    "30-40",
+    "40-50"
+  ],
+  "target_col": "WATER REQUIREMENT",
+  "crop_min_mm": {
+    "RICE": 4.0,
+    "WHEAT": 2.0,
+    "MAIZE": 3.0
+  },
+  "zone_to_climate": {
+    "Western Himalayan Region": "SEMI HUMID",
+    "Eastern Himalayan Region": "HUMID",
+    "Lower Gangetic Plain Region": "HUMID",
+    "Middle Gangetic Plain Region": "HUMID",
+    "Upper Gangetic Plain Region": "SEMI ARID",
+    "Trans-Gangetic Plain Region": "SEMI ARID",
+    "Eastern Plateau & Hills Region": "SEMI HUMID",
+    "Central Plateau & Hills Region": "SEMI ARID",
+    "Western Plateau & Hills Region": "SEMI ARID",
+    "Southern Plateau & Hills Region": "SEMI HUMID",
+    "East Coast Plains & Hills Region": "HUMID",
+    "West Coast Plains & Ghats Region": "HUMID",
+    "Gujarat Plains & Hills Region": "SEMI ARID",
+    "Western Dry Region": "DESERT",
+    "Island Region": "HUMID"
+  }
+}
