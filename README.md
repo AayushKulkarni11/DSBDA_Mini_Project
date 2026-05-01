@@ -267,7 +267,7 @@ The training script reports:
 
 - **Best CV R²** – Cross-validation performance during hyperparameter search
 - **5-fold CV R²** – Stability across full dataset (mean ± std)
-- **Validation R²** – Holdout set performance
+- **Validation R²** – Holdout set performances
 - **Train R²** – In-sample performance after refitting
 - **Per-Crop R²** – Model performance for each crop individually
 - **Feature Importances** – Most influential predictors
